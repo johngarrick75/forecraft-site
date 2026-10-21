@@ -45,7 +45,7 @@
 
         <details>
           <summary>How much history do I need?</summary>
-          <p>At least 60 days gives a usable forecast. Weekly seasonality is applied once there are 21 or more days of daily data, and more history generally means a steadier forecast.</p>
+          <p>Forecraft can forecast from as little as 7 days, but 60 days or more gives a much steadier forecast: Auto needs 60+ days to compare methods, and weekly seasonality is applied once there are 21 or more days of daily data. On the Free plan, store data uses the last 30 days; for longer history, upload a report CSV or upgrade to analyze up to 365 days of orders.</p>
         </details>
 
         <details>
@@ -55,7 +55,7 @@
 
         <details>
           <summary>What does "Auto" do?</summary>
-          <p>Auto backtests each forecast method on the most recent part of your history and uses the one that would have predicted it most accurately.</p>
+          <p>Auto backtests each forecast method on the most recent part of your history and uses the one that would have predicted it most accurately. With less than 60 days of history there isn't enough to backtest, so Auto uses the linear trend method.</p>
         </details>
 
         <details>
