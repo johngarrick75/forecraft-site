@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy – Forecraft</title>
+  <meta name="description" content="How Forecraft handles your store's data.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/favicon-32.png" sizes="32x32">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="./"><img src="assets/forecraft-icon.svg" alt="">Forecraft</a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="pricing.html">Pricing</a>
+        <a href="support.html">Support</a>
+        <a href="privacy.html" aria-current="page">Privacy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <div class="wrap prose">
+        <h1>Privacy Policy</h1>
+        <p class="meta">Last updated: October 21, 2026</p>
+
+        <p>Forecraft ("the App", "we", "us") gives Shopify merchants sales forecasts. This policy explains what information the App accesses, how it is used, and the choices you have when you install Forecraft on your Shopify store.</p>
+
+        <h2>Information we access</h2>
+        <p><strong>Uploaded CSV reports.</strong> When you upload a report CSV, the file is read and processed entirely in your web browser. It is never sent to our servers or to any third party, and we cannot see its contents.</p>
+        <p><strong>Store orders.</strong> If you choose to forecast from your store's orders, the App uses Shopify's API (the <code>read_orders</code> permission) to read the order date, cancellation status, order total, and each line item's product title, quantity and price. It also reads your store's currency and time zone. This data is used only to calculate the forecast you asked for, is held in memory just long enough to return the result to you, and is not stored. The App does not request customer names, email addresses, shipping addresses or other customer details.</p>
+        <p><strong>Account and session information.</strong> To keep you signed in, the App stores a session record for your store: your shop domain, an access token issued by Shopify, the granted permissions, and, for the staff member using the App, the basic profile details Shopify provides (user ID, name, email, locale and account-owner status).</p>
+        <p><strong>Billing.</strong> Subscriptions are handled by Shopify. The App checks which plan your store is on but never receives or stores payment card details.</p>
+
+        <h2>How we use information</h2>
+        <ul>
+          <li>To provide the App's features: generating forecasts and showing the right features for your plan.</li>
+          <li>To sign you in to the App securely.</li>
+          <li>To respond to your support requests.</li>
+        </ul>
+        <p>We do not sell your information, use it for advertising, or share it with third parties except the service providers needed to run the App.</p>
+
+        <h2>Service providers</h2>
+        <p>The App's server and database are hosted by Render (render.com). Session records are stored in that database. Shopify provides authentication, the API and billing.</p>
+
+        <h2>Data retention and deletion</h2>
+        <ul>
+          <li>Session records are deleted when you uninstall the App.</li>
+          <li>We act on Shopify's mandatory privacy webhooks. Because the App stores no customer data, customer data requests and customer redaction requests have nothing to return or delete. When Shopify asks us to redact a shop's data, which happens after uninstallation, all remaining records for that shop are deleted.</li>
+          <li>Support emails are kept only as long as needed to resolve your request.</li>
+        </ul>
+
+        <h2>Your rights</h2>
+        <p>Depending on where you live, you may have the right to access, correct or delete personal information we hold about you, or to object to how we process it. To make a request, email <a href="mailto:support@getforecraft.com">support@getforecraft.com</a>. If you are in the EEA or UK, your information may be processed outside your country. Where that happens, we rely on our providers' standard safeguards.</p>
+
+        <h2>Security</h2>
+        <p>All traffic between your browser, the App and Shopify is encrypted with HTTPS. Access tokens are stored in a database that only the App's server can reach.</p>
+
+        <h2>Changes to this policy</h2>
+        <p>We may update this policy as the App changes. We will update the date above, and for significant changes we will notify you through the App or by email.</p>
+
+        <h2>Contact</h2>
+        <p>Questions about this policy? Email <a href="mailto:support@getforecraft.com">support@getforecraft.com</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© 2026 Forecraft</span>
+      <nav aria-label="Footer">
+        <a href="pricing.html">Pricing</a>
+        <a href="support.html">Support</a>
+        <a href="privacy.html">Privacy policy</a>
+        <a href="mailto:support@getforecraft.com">support@getforecraft.com</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

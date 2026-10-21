@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Forecraft – Sales forecasts for Shopify</title>
+  <meta name="description" content="Forecraft turns your Shopify sales history into a forecast with confidence ranges. Upload a report CSV or use your store's orders.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/favicon-32.png" sizes="32x32">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <meta property="og:title" content="Forecraft – Sales forecasts for Shopify">
+  <meta property="og:description" content="Forecast your Shopify sales from a CSV or your store's orders.">
+  <meta property="og:image" content="assets/app-icon-1200.png">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="./"><img src="assets/forecraft-icon.svg" alt="">Forecraft</a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="pricing.html">Pricing</a>
+        <a href="support.html">Support</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <div class="wrap hero">
+        <div>
+          <h1>Forecast your Shopify sales in minutes</h1>
+          <p class="lead">Forecraft takes your sales history and projects it forward, with a range of likely outcomes. Upload a report CSV, which never leaves your browser, or forecast straight from your store's orders.</p>
+          <div class="btn-row">
+            <!-- TODO: replace with the real App Store listing URL once published -->
+            <a class="btn btn-primary" href="https://apps.shopify.com/forecraft">Install on Shopify</a>
+            <a class="btn btn-secondary" href="#how-it-works">How it works</a>
+          </div>
+        </div>
+        <figure class="chart-card" style="margin:0">
+          <svg viewBox="0 0 400 210" role="img" aria-label="Example chart: past daily sales followed by a forecast line with a shaded confidence band">
+            <line x1="250" y1="10" x2="250" y2="190" stroke="var(--border)" stroke-width="1.5" stroke-dasharray="4 4"/>
+            <path d="M250 96 L285 82 L320 70 L355 56 L390 44 L390 120 L355 118 L320 116 L285 113 L250 104 Z" fill="var(--chart-band)"/>
+            <polyline fill="none" stroke="var(--chart-history)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"
+              points="10,160 30,150 50,156 70,138 90,144 110,128 130,134 150,120 170,126 190,110 210,116 230,102 250,100"/>
+            <polyline fill="none" stroke="var(--amber)" stroke-width="3" stroke-dasharray="7 6" stroke-linecap="round"
+              points="250,100 285,97 320,93 355,87 390,82"/>
+            <text x="10" y="205" font-size="11" fill="var(--muted)">Last 90 days</text>
+            <text x="390" y="205" font-size="11" fill="var(--muted)" text-anchor="end">Next 30 days</text>
+          </svg>
+          <figcaption class="chart-legend">
+            <span>Sales history</span>
+            <span class="forecast">Forecast</span>
+            <span class="band">Likely range</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="how-it-works">
+      <div class="wrap">
+        <h2>How it works</h2>
+        <div class="grid">
+          <div class="card">
+            <div class="step-num">1</div>
+            <h3>Bring your sales history</h3>
+            <p>Export a report such as <strong>Total sales over time</strong> from Shopify Analytics, or an Orders export. You can also let Forecraft read your store's orders directly.</p>
+          </div>
+          <div class="card">
+            <div class="step-num">2</div>
+            <h3>Pick a forecast method</h3>
+            <p>Auto mode backtests several statistical models against your own data and uses the one that would have been most accurate.</p>
+          </div>
+          <div class="card">
+            <div class="step-num">3</div>
+            <h3>Plan with confidence</h3>
+            <p>See projected sales with a likely range, broken down by product, so you can plan inventory, budgets and promotions.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <h2>Real forecasting methods, explained</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>Linear trend + weekly seasonality</h3>
+            <p>Finds the overall direction of your sales and the day-of-week pattern most stores have.</p>
+          </div>
+          <div class="card">
+            <h3>Holt-Winters &amp; Holt's linear</h3>
+            <p>Exponential smoothing models that give recent sales more weight and adapt as your trend shifts.</p>
+          </div>
+          <div class="card">
+            <h3>Show the math</h3>
+            <p>Every forecast lists its fitted parameters and error estimates, so you know exactly how a number was made.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="callout">
+          <h2>Your CSV stays on your computer</h2>
+          <p>When you upload a report, Forecraft reads and forecasts it entirely in your browser. The file is never sent to our servers or to any third party. <a href="privacy.html">Read the privacy policy</a>.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <h2>Start free</h2>
+        <p class="lead">The Free plan includes Auto forecasting and the simple average method. Upgrade for every method and per-product projections: $10/month or $99/year, with a 7-day free trial for eligible stores.</p>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="https://apps.shopify.com/forecraft">Install on Shopify</a>
+          <a class="btn btn-secondary" href="pricing.html">Compare plans</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© 2026 Forecraft</span>
+      <nav aria-label="Footer">
+        <a href="pricing.html">Pricing</a>
+        <a href="support.html">Support</a>
+        <a href="privacy.html">Privacy policy</a>
+        <a href="mailto:support@getforecraft.com">support@getforecraft.com</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

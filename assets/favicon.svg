@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" role="img" aria-label="Forecraft">
+  <rect width="1200" height="1200" rx="264" fill="#1B2559"/>
+  <line x1="347" y1="340" x2="347" y2="860" stroke="#FFFFFF" stroke-width="130" stroke-linecap="round"/>
+  <line x1="347" y1="600" x2="547" y2="600" stroke="#FFFFFF" stroke-width="130" stroke-linecap="round"/>
+  <line x1="347" y1="340" x2="607" y2="340" stroke="#F5A524" stroke-width="130" stroke-linecap="round"/>
+  <circle cx="762" cy="340" r="46" fill="#F5A524" opacity="0.8"/>
+  <circle cx="882" cy="340" r="36" fill="#F5A524" opacity="0.5"/>
+</svg>
