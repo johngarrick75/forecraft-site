@@ -26,14 +26,14 @@
     <section>
       <div class="wrap prose">
         <h1>Privacy Policy</h1>
-        <p class="meta">Last updated: October 21, 2026</p>
+        <p class="meta">Last updated: October 24, 2026</p>
 
         <p>Forecraft ("the App", "we", "us") gives Shopify merchants sales forecasts. This policy explains what information the App accesses, how it is used, and the choices you have when you install Forecraft on your Shopify store.</p>
 
         <h2>Information we access</h2>
         <p><strong>Uploaded CSV reports.</strong> When you upload a report CSV, the file is read and processed entirely in your web browser. It is never sent to our servers or to any third party, and we cannot see its contents.</p>
         <p><strong>Store orders.</strong> If you choose to forecast from your store's orders, the App uses Shopify's API (the <code>read_orders</code> permission) to read the order date, cancellation status, order total, and each line item's product title, quantity and price. It also reads your store's currency and time zone. This data is used only to calculate the forecast you asked for, is held in memory just long enough to return the result to you, and is not stored. The App does not request customer names, email addresses, shipping addresses or other customer details.</p>
-        <p><strong>Account and session information.</strong> To keep you signed in, the App stores a session record for your store: your shop domain, an access token issued by Shopify, the granted permissions, and, for the staff member using the App, the basic profile details Shopify provides (user ID, name, email, locale and account-owner status).</p>
+        <p><strong>Account and session information.</strong> To keep you signed in, the App stores a session record for your store: your shop domain, an access token issued by Shopify, the granted permissions, and, for the staff member using the App, the basic profile details Shopify provides (user ID, name, email, locale and account-owner status). The App also stores your store's current plan for a few minutes, so it doesn't have to check with Shopify on every page, and a temporary record while store orders are loading. Neither contains order or customer data, and both are deleted when you uninstall.</p>
         <p><strong>Billing.</strong> Subscriptions are handled by Shopify. The App checks which plan your store is on but never receives or stores payment card details.</p>
 
         <h2>How we use information</h2>
@@ -45,11 +45,11 @@
         <p>We do not sell your information, use it for advertising, or share it with third parties except the service providers needed to run the App.</p>
 
         <h2>Service providers</h2>
-        <p>The App's server and database are hosted by Render (render.com). Session records are stored in that database. Shopify provides authentication, the API and billing.</p>
+        <p>The App's server and database are hosted by Render (render.com). Session records, the cached plan and loading records are stored in that database. Shopify provides authentication, the API and billing.</p>
 
         <h2>Data retention and deletion</h2>
         <ul>
-          <li>Session records are deleted when you uninstall the App.</li>
+          <li>Session records, the cached plan and loading records are deleted when you uninstall the App.</li>
           <li>We act on Shopify's mandatory privacy webhooks. Because the App stores no customer data, customer data requests and customer redaction requests have nothing to return or delete. When Shopify asks us to redact a shop's data, which happens after uninstallation, all remaining records for that shop are deleted.</li>
           <li>Support emails are kept only as long as needed to resolve your request.</li>
         </ul>
